@@ -57,6 +57,7 @@ body[data-theme="dark"][data-device="mobile"] .buttons {
     display: inline-block;
     height: 37px;
     margin: 0 auto;
+    cursor: pointer;
 }
 
 body[data-theme="light"] #wiki>g>path {
