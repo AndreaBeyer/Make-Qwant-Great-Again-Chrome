@@ -18,7 +18,7 @@ body[data-theme="dark"] form[data-testid="mainSearchBar"]:focus-within {
 }
 
 body[data-theme="dark"] [data-testid="home"] {
-  background-color: #000;
+  background-color: #131416;
 }
 
 body[data-theme="light"] form[data-testid="mainSearchBar"]:focus-within {
@@ -124,7 +124,7 @@ body[data-theme="light"] [class*="SuggestableSearchBarMobile"] {
 
 body[data-theme="dark"] [class*="SearchHeader"],
 body[data-theme="dark"] [class*="SuggestableSearchBarMobile"] {
-  background-color: #000 !important;
+  background-color: #131416 !important;
 }
 
 body[data-theme="light"] [data-testid="mainSearchBar"] {
@@ -144,7 +144,7 @@ body[data-theme="light"] .SearchHeader-module__SearchHeader___27RFp {
 
 body[data-theme="dark"] [class*="SearchHeaderFloating"],
 body[data-theme="dark"] .SearchHeader-module__SearchHeader___27RFp {
-  border-bottom: 3px solid rgb(0, 0, 0) !important;
+  border-bottom: 3px solid #131416 !important;
 }
 
 /* search bar width */
@@ -306,7 +306,7 @@ body[data-theme="dark"] [class*="SearchHeaderLinkLabel"] {
 }
 
 body[data-theme="light"] [class*="SearchHeaderLinkLabel"] {
-  color: rgb(0, 0, 0);
+  color: #131416;
   font-size: 14px !important;
 }
 
@@ -341,3 +341,15 @@ button[type="reset"] {
   width: 34px !important;
 }
 
+/* Footer */
+footer * {
+  background-color: transparent!important;
+}
+
+body[data-theme="light"] footer {
+  border-top: 3px solid rgb(255, 255, 255);
+}
+
+body[data-theme="dark"] footer {
+  border-top: 1px solid #2f3237!important;
+}
