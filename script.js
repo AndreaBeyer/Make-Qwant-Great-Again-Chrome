@@ -1,5 +1,4 @@
 window.onload = function () {
-
   changeFavicon();
 
   /* #region  Logo svg */
@@ -10,7 +9,7 @@ window.onload = function () {
   //set logo visible after src change
   document.querySelector('[class*="SearchHeaderLogo"]').style.visibility =
     "visible";
-
+    
   //Close ribbon Install extension
   const closeRibbonBtn = document.querySelector('[class*="RibbonClose"]');
 
